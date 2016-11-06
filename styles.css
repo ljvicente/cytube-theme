@@ -1,7 +1,12 @@
+.logo-heart {
+	height: 21px;
+}
+
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
     background: #333;
 }
-.logo-heart {
-	height: 21px;
+
+body {
+	background-color: #222;
 }

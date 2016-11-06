@@ -10,7 +10,6 @@ $('body').append('<img style="position:fixed;bottom:0px;right:4%;height:30px;z-i
 $('body').append('<img style="position:fixed;bottom:30px;right:0;height:50px;" src="http://arzlez.epizy.com/files/2.gif">');
 
 $('#leftcontrols').append('<button class="btn btn-sm btn-default" onclick="$(\'#messagebuffer\').html(\'\');">Anti-Mamu</button>');
-$('#leftcontrols').append('<button class="btn btn-default" style="position: fixed; top: 70px; right: 20px; z-index: 9999;" onclick="$(\'#videowrap\').toggle(); $(\'#chatwrap\').toggle();">Anti-Amu</button>');
 
 $('#chatwrap').before($('#videowrap'));
 $('#leftcontrols').before($('#rightcontrols'));
