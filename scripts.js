@@ -4,10 +4,10 @@ $("#videowrap").addClass('col-md-8');
 $("#chatwrap").removeAttr('class');
 $("#chatwrap").addClass('col-lg-4');
 $("#chatwrap").addClass('col-md-4');
-$('.navbar-brand').html('<span class="pull-left">Arz</span> <img src="http://arzlez.epizy.com/files/emoticons/heart.png" class="pull-left logo-heart"> <span class="pull-left">Lez</span>');
-$('body').append('<img style="position:fixed;bottom:-30px;right:0;height:100px;z-index:1;" src="http://arzlez.epizy.com/files/pusheen-popcorn.png">');
-$('body').append('<img style="position:fixed;bottom:0px;right:4%;height:30px;z-index:2;" src="http://arzlez.epizy.com/files/1.gif">');
-$('body').append('<img style="position:fixed;bottom:30px;right:0;height:50px;" src="http://arzlez.epizy.com/files/2.gif">');
+$('.navbar-brand').html('<span class="pull-left">Arz</span> <img src="https://rawgit.com/ljvicente/cytube-theme/master/img/heart.png" class="pull-left logo-heart"> <span class="pull-left">Lez</span>');
+$('body').append('<img style="position:fixed;bottom:-30px;right:0;height:100px;z-index:1;" src="https://rawgit.com/ljvicente/cytube-theme/master/img/pusheen-popcorn.png">');
+$('body').append('<img style="position:fixed;bottom:0px;right:4%;height:30px;z-index:2;" src="https://rawgit.com/ljvicente/cytube-theme/master/img/1.gif">');
+$('body').append('<img style="position:fixed;bottom:30px;right:0;height:50px;" src="https://rawgit.com/ljvicente/cytube-theme/master/img/2.gif">');
 
 $('#leftcontrols').append('<button class="btn btn-sm btn-default" onclick="$(\'#messagebuffer\').html(\'\');">Anti-Mamu</button>');
 
